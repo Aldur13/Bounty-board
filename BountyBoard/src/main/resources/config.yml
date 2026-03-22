@@ -1,0 +1,4 @@
+broadcast-on-bounty: true
+allow-self-bounty: false
+kill-message: "&6[Bounty] &c{killer} &7claimed the bounty on &c{target} &7and received {count} reward item(s)!"
+bounty-posted-message: "&6[Bounty] &7A bounty has been placed on &c{target}&7!"

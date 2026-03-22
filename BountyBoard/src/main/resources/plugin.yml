@@ -1,0 +1,19 @@
+name: BountyBoard
+version: 1.0.0
+main: com.bountyboard.BountyBoard
+api-version: 1.13
+authors: [Kodari]
+
+commands:
+  bountyboard:
+    description: Bounty Board admin commands
+    usage: /bountyboard <give|list|clear <target>>
+    permission: bountyboard.admin
+
+permissions:
+  bountyboard.admin:
+    description: Admin access to bounty board commands
+    default: op
+  bountyboard.use:
+    description: Allows placing and using bounty boards
+    default: true
